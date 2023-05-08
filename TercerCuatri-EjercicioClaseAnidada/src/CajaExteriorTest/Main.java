@@ -23,16 +23,15 @@ public class Main {
         CajaExterior cajaExterior = new CajaExterior();
 
         // Mostrar el valor de x
-        cajaExterior.mostrarX();
+        cajaExterior.mostrar();
 
         // Crear una nueva CajaInterior
         CajaExterior.CajaInterior cajaInterior = cajaExterior.crearInterior();
 
         // Mostrar el valor de y
-        cajaInterior.mostrarY();
-
-
+        cajaInterior.mostrar();
     }
 }
+
 
 
